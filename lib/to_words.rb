@@ -34,7 +34,6 @@ module ToWords
   end
 end
 
-class Fixnum
+class Integer
   include ToWords
 end
-
